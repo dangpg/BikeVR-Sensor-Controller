@@ -1,0 +1,2 @@
+bluezero==0.2.0
+RPi.GPIO==0.6.5

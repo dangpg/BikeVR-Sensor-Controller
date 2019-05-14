@@ -1,0 +1,16 @@
+# Button mapping of Wiimote using python-cwiid when holding it vertically
+1 - Button 2
+2 - Button 1
+4 - Button B
+8 - Button A
+16 - Minus
+32 - 
+64 -
+128 - Home
+256 - Left
+512 - Right
+1024 - Down
+2048 - Up
+4096 - Plus
+
+When holding multiple buttons down, their respective values get summed up.
