@@ -28,6 +28,8 @@ def run():
 
     app.add_service(service)
 
+    app.start()
+"""     
     app_thread = Thread(target = app.start, args = ())
     app_thread.setDaemon(True)
     app_thread.start()
@@ -49,4 +51,5 @@ def run():
                     break
                 except RuntimeError:
                     if i == 3:
-                        print 'Error trying to establish connection!'
+                        print 'Error trying to establish connection!' 
+"""
