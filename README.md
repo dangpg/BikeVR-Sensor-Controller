@@ -46,7 +46,7 @@ In order to automatically start the sensor controller at startup, add the follow
 
     exit 0
 
-Edit the path if you saved the project under another file location.
+Edit by typing `sudo nano /etc/rc.local` and feel free to modify the path if you saved the project under another file location.
 
 
 Use `sudo ps -ax | grep python` to display all running Python applications.
